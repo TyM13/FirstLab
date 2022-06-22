@@ -1,0 +1,68 @@
+@use "../general";
+
+
+body{
+    background-image: url(/Pictures/Backgroundindex.webp);
+}
+
+header{
+
+    >nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 20px;
+    }
+}
+
+
+
+div{
+    display: grid;
+    place-items: center;
+    background-color: black;
+
+    >#img_header{
+        width: 15%;
+        height: 100%;
+        place-items: center;
+        }
+}
+
+
+
+
+
+/* Code above is for header of the page */
+
+
+>img{
+    width: 80%;
+    height: 60vh;
+    place-self: center;
+    border-radius: 10%;
+
+}
+
+section{
+display: grid;
+
+    >img{
+        width: 80%;
+        height: 60vh;
+        place-self: center;
+        border-radius: 10%;
+
+    }
+
+}
+
+div{
+    color: white;
+}
+
+main{
+display: grid;
+grid-template-columns: 1fr;
+
+}
