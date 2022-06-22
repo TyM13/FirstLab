@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url(/Pictures/Backgroundindex.webp);
+    background-image: url(/indexPictures/Backgroundindex.webp);
 }
 
 header{
@@ -12,6 +12,7 @@ header{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-items: center;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -49,7 +50,7 @@ display: grid;
 
     >img{
         width: 80%;
-        height: 60vh;
+        height: 40vh;
         place-self: center;
         border-radius: 10%;
 
@@ -62,7 +63,15 @@ div{
 }
 
 main{
-display: grid;
-grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    grid-template-columns: 1fr;
+
+    >img{
+        width: 90%;
+        height: 90%;
+        align-self: center;
+        justify-self: center;
+    }
 
 }
