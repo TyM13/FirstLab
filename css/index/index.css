@@ -87,4 +87,14 @@ h2 {
   align-self: center;
   justify-self: center;
   border-radius: 10%;
+}
+
+/* Above is content for the main */
+iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+section {
+  background-color: white;
 }/*# sourceMappingURL=index.css.map */
