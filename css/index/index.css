@@ -14,8 +14,7 @@ img {
 }
 
 footer {
-  background-color: black;
-  padding: 50px;
+  padding: 40px;
 }
 footer > p {
   color: white;
@@ -90,6 +89,7 @@ h2 {
   grid-template-columns: 1fr;
   gap: 40px;
   text-align: center;
+  padding-bottom: 30px;
 }
 .main_div > h3 {
   margin-top: 40px;
@@ -111,6 +111,12 @@ iframe {
 
 section {
   background-color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+h1 {
+  padding: 30px;
+  text-decoration: underline;
 }
 
 /* above is the section and footer *//*# sourceMappingURL=index.css.map */
