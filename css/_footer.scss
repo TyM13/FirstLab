@@ -1,9 +1,41 @@
 footer{
     padding: 40px;
-    
+    background-color: black;
+
     >p{
         color: white;
         text-align: center;
         font-size: .8em;
     }
+}
+
+section{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    >a{
+
+    }
+}
+
+h1{
+    padding: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#section_contactus{
+    width: 20px;
+    height: 5px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+#p_contactus{
+    padding-bottom: 20px;
 }
