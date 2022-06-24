@@ -1,37 +1,13 @@
 @use "../general";
+@use "../footer";
+@use "../header";
+
+$Main-Font-Color: rgb(255, 255, 255);
 
 
 body {
     background-image: url(/indexPictures/Backgroundindex.webp);
 }
-
-header {
-
-    >nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-
-
-#div_indexheader {
-    display: grid;
-    place-items: center;
-    background-color: black;
-
-    >#img_header {
-        width: 15%;
-        height: 100%;
-        place-items: center;
-    }
-}
-
-
-
 
 
 /* Code above is for header of the page */
@@ -45,7 +21,7 @@ header {
 
 }
 
-section {
+#fancysteakplate {
     display: grid;
 
     >img {
@@ -58,9 +34,7 @@ section {
 
 }
 
-div {
-    color: white;
-}
+
 
 main {
     display: grid;
@@ -86,7 +60,7 @@ h2 {
 
     >h3{
         margin-top: 40px;
-         color: white;
+         color: $Main-Font-Color;
     }
 
     >img {
@@ -114,3 +88,6 @@ section{
     
 
 }
+
+
+/* above is the section and footer */
