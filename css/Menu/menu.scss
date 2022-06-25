@@ -38,6 +38,7 @@ h1{
 main{
     display: grid;
     grid-template-columns: 1fr ;
+
 }
 
 .menutitle{
@@ -69,7 +70,16 @@ p{
     margin-top: 35px;
 }
 
+div{
+    display: grid;
+    place-items: center;
 
+    >img{
+        max-width: 80%;
+        height: 25vh;
+        
+     }
+}
 
 
 // .container:hover .overlay{

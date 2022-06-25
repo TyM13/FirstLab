@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -112,4 +113,13 @@ p {
 
 .food_title {
   margin-top: 35px;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+div > img {
+  max-width: 80%;
+  height: 25vh;
 }/*# sourceMappingURL=menu.css.map */
