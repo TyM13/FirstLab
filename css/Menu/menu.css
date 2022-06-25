@@ -13,6 +13,10 @@ img {
   width: 100%;
 }
 
+body {
+  background-image: url(/indexPictures/Backgroundindex.webp);
+}
+
 footer {
   padding: 40px;
   background-color: black;
@@ -28,7 +32,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-h1 {
+.visitus {
   padding: 30px;
   text-decoration: underline;
   text-align: center;
@@ -76,10 +80,40 @@ header > nav {
   margin-bottom: 20px;
 }
 
-main > nav {
+h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+#section1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  grid-template-columns: 1fr;
+  margin: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.menutitle {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: end;
+  justify-self: center;
+  color: white;
+}
+
+#section2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+}
+
+p {
+  padding: 5px;
+}
+
+.food_title {
+  margin-top: 35px;
 }/*# sourceMappingURL=menu.css.map */

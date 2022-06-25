@@ -2,12 +2,71 @@
 @use "../footer";
 @use "../header";
 
-main{
-    >nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+
+
+*{
+    
+
 }
+
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+#section1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.menutitle{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: end;
+    justify-self: center;
+    color: white;
+}
+
+#section2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 20px;
+    
+}
+
+p{
+    padding: 5px;
+}
+
+
+.food_title{
+    margin-top: 35px;
+}
+
+// .container:hover .overlay{
+//     opacity: .3;
+// }
+
+// .overlay{
+//     background-color: gray;
+//     transition: 1s ease;
+//     opacity: 0;
+//     position: absolute;
+
+    
+    
+// }
+
+// img{
+//     display: block;
+//   width: 60%;
+// }
+
+
