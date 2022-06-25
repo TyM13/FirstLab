@@ -70,4 +70,34 @@ header > nav {
   width: 15%;
   height: 100%;
   place-items: center;
+}
+
+iframe {
+  align-self: center;
+  justify-self: center;
+  width: 60vw;
+  height: 60vh;
+  margin: 20px;
+}
+
+main {
+  display: grid;
+  grid-auto-flow: row;
+}
+main > p {
+  color: white;
+  margin: 20px;
+}
+main > h4 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#aboutus_h1 {
+  color: white;
 }/*# sourceMappingURL=AboutUs.css.map */
