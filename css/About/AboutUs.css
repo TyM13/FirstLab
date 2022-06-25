@@ -70,12 +70,4 @@ header > nav {
   width: 15%;
   height: 100%;
   place-items: center;
-}
-
-header > nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }/*# sourceMappingURL=AboutUs.css.map */

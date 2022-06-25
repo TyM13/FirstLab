@@ -72,14 +72,6 @@ header > nav {
   place-items: center;
 }
 
-header > nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 h1 {
   text-align: center;
   padding: 40px;

@@ -72,19 +72,10 @@ header > nav {
   place-items: center;
 }
 
-header > nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 body {
   background-image: url(/indexPictures/Backgroundindex.webp);
 }
 
-/* Code above is for header of the page */
 > img {
   width: 80%;
   height: 60vh;
