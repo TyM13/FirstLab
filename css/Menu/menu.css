@@ -114,6 +114,10 @@ p {
   padding: 5px;
 }
 
+.price {
+  margin-bottom: 10px;
+}
+
 .food_title {
   margin-top: 35px;
 }/*# sourceMappingURL=menu.css.map */
