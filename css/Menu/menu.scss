@@ -1,27 +1,10 @@
 @use "../general";
 @use "../footer";
 @use "../header";
+@use "../tablet";
 
 
-#menu_nav{
 
-
-    >#App{
-       
-    }
-    >#Mains{
-
-
-    }
-
-    >#Sides{
-
-    }
-
-    >#Desserts{
-
-    }
-}
 
 h1{
     text-align: center;
@@ -38,6 +21,7 @@ h1{
 main{
     display: grid;
     grid-template-columns: 1fr ;
+    justify-self: center;
 
 }
 
@@ -47,6 +31,7 @@ main{
     align-self: end;
     justify-self: center;
     color: white;
+    margin: 45px 0px 25px 0;
 }
 
 #section2{
@@ -56,9 +41,7 @@ main{
     
 }
 
-p{
-    padding: 5px;
-}
+
 
 .price{
     margin-bottom:  10px;
@@ -77,10 +60,26 @@ div{
     >img{
         max-width: 80%;
         height: 25vh;
+        align-self: start;
         
+     }
+
+     >p{
+        
+     }
+
+     >h2{
+  
      }
 }
 
+.container{
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
 
 // .container:hover .overlay{
 //     opacity: .3;
@@ -102,3 +101,22 @@ div{
 // }
 
 
+// #menu_nav{
+
+
+//     >#App{
+       
+//     }
+//     >#Mains{
+
+
+//     }
+
+//     >#Sides{
+
+//     }
+
+//     >#Desserts{
+
+//     }
+// }
