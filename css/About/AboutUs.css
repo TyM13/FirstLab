@@ -72,7 +72,7 @@ header > nav {
   background-color: black;
 }
 #div_indexheader > #img_header {
-  width: 15%;
+  width: 20%;
   height: 100%;
   place-items: center;
 }
@@ -80,7 +80,7 @@ header > nav {
 @media only screen and (min-width: 650px) {
   #menu_main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 
   #tablet_number {
@@ -89,6 +89,28 @@ header > nav {
 
   #mobile_number {
     display: none;
+  }
+
+  main {
+    display: grid;
+  }
+
+  .index_imgs {
+    max-width: 40vw;
+  }
+
+  .menu_img {
+    max-width: 420px;
+    max-height: 420px;
+  }
+
+  #index_maincontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #main_img {
+    width: 80vw;
   }
 }
 iframe {
@@ -106,6 +128,7 @@ main {
 main > p {
   color: white;
   margin: 20px;
+  text-align: center;
 }
 main > h4 {
   color: white;

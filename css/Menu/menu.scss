@@ -15,14 +15,14 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     margin: 20px;
-
+    margin-bottom: 15vh;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     justify-self: center;
-
+    margin-bottom: 15vh;
 }
 
 .menutitle {
@@ -38,9 +38,16 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     margin: 20px;
+    margin-bottom: 20vh;
 
 }
 
+#section_sides {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    margin-bottom: 20vh;
+}
 
 
 .price {
@@ -85,7 +92,6 @@ div {
 .container {
     text-align: center;
 }
-
 
 
 // .container:hover .overlay{

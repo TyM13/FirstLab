@@ -24,30 +24,27 @@ body {
     display: grid;
 
     >img {
-        width: 80%;
-        height: 40vh;
+
         place-self: center;
         border-radius: 10%;
-
+        width: 80vw;
     }
 
 }
-
 
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    ;
-    grid-template-columns: 1fr;
+    grid-column: 1fr;
+    align-self: center;
     gap: 60px;
 }
-    
+
 h2 {
-        color: rgba(150, 148, 145, 0.486);
-        text-align: center;
-        margin-top: 70px;
-    }
+    color: rgba(150, 148, 145, 0.486);
+    text-align: center;
+    margin-top: 70px;
+}
 
 
 .main_div {
@@ -58,14 +55,14 @@ h2 {
     text-align: center;
     padding-bottom: 30px;
 
-    >h3{
+    >h3 {
         margin-top: 40px;
-         color: $Main-Font-Color;
+        color: $Main-Font-Color;
     }
 
     >img {
-        width: 90%;
-        height: 90%;
+        width: 80vw;
+        height: 40vh;
         align-self: center;
         justify-self: center;
         border-radius: 10%;
@@ -76,9 +73,15 @@ h2 {
 /* Above is content for the main */
 
 
-iframe{
-        width: 100%;
-        height: 50vh;
-    }   
+iframe {
+    width: 100%;
+    height: 50vh;
+}
 
-/* above is the section and footer */
+
+#spacing {
+    padding: 1.1in;
+    display: hidden;
+}
+
+
