@@ -102,6 +102,8 @@ header > nav {
   .menu_img {
     max-width: 420px;
     max-height: 420px;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
 
   #index_maincontainer {
@@ -130,6 +132,7 @@ main {
   grid-template-columns: 1fr;
   justify-self: center;
   margin-bottom: 15vh;
+  gap: 40px;
 }
 
 .menutitle {
