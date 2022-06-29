@@ -54,6 +54,10 @@ section {
   padding-bottom: 20px;
 }
 
+#tablet_number {
+  display: none;
+}
+
 header > nav {
   display: grid;
   grid-auto-flow: row;
@@ -73,6 +77,20 @@ header > nav {
   place-items: center;
 }
 
+@media only screen and (min-width: 650px) {
+  #menu_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  #tablet_number {
+    display: block;
+  }
+
+  #mobile_number {
+    display: none;
+  }
+}
 body {
   background-image: url(/indexPictures/Backgroundindex.webp);
 }
