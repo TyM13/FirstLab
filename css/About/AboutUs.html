@@ -12,20 +12,47 @@
 <body>
 
 
-    <header class="header">
+    <body>
 
-        <div id="div_indexheader">
-            <img id="img_header" src="/indexPictures/steakhouse.jpg" alt="Logo">
-        </div>
-        <nav>
-            <a href="/css/index/index.html">Home</a>
-            <a id="menu_index" href="/css/Menu/menu.html">Menu</a>
-            <a id="reservations_index" href="/css/Menu/menu.html">Reservations</a>
-            <a id="aboutUs_index" href="/css/About/AboutUs.html">About Us</a>
-
-        </nav>
-
-    </header>
+        <header id="mobile_header">
+    
+         
+    
+            <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+            <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+    
+            <label for="menu_open">
+                <img id="hamburger_menu" src="/indexPictures/HamburgerMenu.svg" alt="Open Menu Label"
+                    class="hoverable">
+            </label>
+    
+            <section id="mobile_menu">
+                <div id="menu_header">
+                    <label for="menu_close">
+                        <img id="arrowleft" src="/indexPictures/ArrowLeft.svg" alt="Exit Menu Label" class="hoverable">
+                    </label>
+                    <div>
+                        <a class="slide_menu" href="/css/index/index.html"><h1>Home</h1></a>
+                        <a class="slide_menu" href="/css/Menu/menu.html"><h1>Menu</h1></a>
+                        <a class="slide_menu" href=""><h1>Reservations</h1></a>
+                        <a class="slide_menu" href="/css/About/AboutUs.html"><h1>About Us</h1></a>
+                    </div>
+            </section>
+            
+            
+               <div id="div_indexheader">
+                <img id="img_header" src="/indexPictures/steakhouse.jpg" alt="Logo" >
+            </div>
+            
+            <!-- <nav>
+                <a href="/css/index/index.html">Home</a>
+                <a id="menu_index" href="/css/Menu/menu.html">Menu</a>
+                <a id="reservations_index" href="/css/Menu/menu.html">Reservation</a>
+                <a id="aboutUs_index" href="/css/About/AboutUs.html">About Us</a>
+    
+            </nav> -->
+    
+        </header>
 
     <iframe src="https://www.youtube.com/embed/06Ho44JiB-c" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

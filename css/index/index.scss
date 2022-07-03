@@ -2,6 +2,7 @@
 @use "../footer";
 @use "../header";
 @use "../tablet";
+@use "../mobile";
 
 $Main-Font-Color: rgb(255, 255, 255);
 
@@ -22,6 +23,7 @@ body {
 
 #fancysteakplate {
     display: grid;
+    margin-top: 5vh;
 
     >img {
 
