@@ -29,6 +29,9 @@
     object-fit: fill;
 }
 
+#div_indexheader{
+    justify-content: start;
+}
 
 #index_maincontainer{
     display: grid;
@@ -37,6 +40,52 @@
 
 #main_img{
     width: 80vw;
+}
+
+nav{
+    display: block;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+#hamburger_menu {
+    display: none;
+}
+
+#arrowleft {
+    display: none;
+}
+
+.menu_radio_button {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+    opacity: 0;
+}
+
+#menu_open:checked~#mobile_menu {
+    display: none;
+}
+
+#menu_header {
+    display: none;
+}
+
+
+#mobile_header {
+    display: none;
+}
+
+.slide_menu{
+    display: none;
 }
 
 
