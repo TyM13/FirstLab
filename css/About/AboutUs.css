@@ -191,6 +191,7 @@ iframe {
 main {
   display: grid;
   grid-auto-flow: row;
+  margin-bottom: 20vh;
 }
 main > p {
   color: white;
