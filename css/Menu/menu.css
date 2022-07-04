@@ -230,11 +230,6 @@ label {
   color: white;
 }
 
-@media only screen and (max-width: 650px) {
-  nav {
-    display: none;
-  }
-}
 #section1 {
   display: grid;
   grid-template-columns: 1fr;
