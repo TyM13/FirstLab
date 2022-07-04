@@ -1,0 +1,22 @@
+@use "../general";
+@use "../footer";
+@use "../header";
+@use "../tablet";
+@use "../mobile";
+
+
+body {
+    background-image: url(/indexPictures/Backgroundindex.webp);
+}
+
+#reservations_maincontainer {
+    display: grid;
+    grid-column: 1fr;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    text-align: center;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+

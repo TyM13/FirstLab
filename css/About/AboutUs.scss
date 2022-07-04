@@ -17,6 +17,7 @@ main{
     display: grid;
     grid-auto-flow: row;
     margin-bottom: 20vh;
+    justify-items: center;
 
     >p{
         color: white; 
@@ -38,4 +39,11 @@ main{
 
 #aboutus_h1{
     color: white;
+}
+
+#restautant_interior{
+    margin-top: 20vh;
+    border-radius: 10%;
+    width: 80%;
+    
 }

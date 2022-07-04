@@ -13,6 +13,7 @@ header {
         justify-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
+        
     }
 }
 
@@ -33,4 +34,64 @@ header {
 
 label{
     background-color: black;
+}
+
+
+
+
+#home_index{
+background-color: rgb(255,255,255);
+    padding: 15px;
+    min-width: 20vw;
+    
+    >h1{
+        color: black;
+        font-size: medium;
+        text-decoration: underline;
+    }
+}
+
+
+#menu_index{ 
+    background-color:rgb(238,174,43);
+    padding: 15px;
+    min-width: 20vw;
+
+    >h1{
+        color: black;
+        font-size: medium;
+        text-decoration: underline;
+    }
+}
+
+#reservations_index{
+    background-color: rgb(255,107,6);
+    padding: 15px;
+    min-width: 20vw;
+
+    >h1{
+        color: black;
+        font-size: medium;
+        text-decoration: underline;
+    }
+}
+
+#aboutUs_index{
+    background-color:rgb(35,50,69);
+    padding: 15px;
+    min-width: 20vw;
+    
+    >h1{
+        color: black;
+        font-size: medium;
+        text-decoration: underline;
+    }
+}
+
+
+
+
+a:hover{
+    box-shadow: 5px 5px 5px;
+color: rgba(255, 255, 255, 0.397);
 }

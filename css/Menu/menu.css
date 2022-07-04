@@ -33,6 +33,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .visitus {
   padding: 30px;
   text-decoration: underline;
@@ -86,6 +87,55 @@ header > nav {
 
 label {
   background-color: black;
+}
+
+#home_index {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  min-width: 20vw;
+}
+#home_index > h1 {
+  color: black;
+  font-size: medium;
+  text-decoration: underline;
+}
+
+#menu_index {
+  background-color: rgb(238, 174, 43);
+  padding: 15px;
+  min-width: 20vw;
+}
+#menu_index > h1 {
+  color: black;
+  font-size: medium;
+  text-decoration: underline;
+}
+
+#reservations_index {
+  background-color: rgb(255, 107, 6);
+  padding: 15px;
+  min-width: 20vw;
+}
+#reservations_index > h1 {
+  color: black;
+  font-size: medium;
+  text-decoration: underline;
+}
+
+#aboutUs_index {
+  background-color: rgb(35, 50, 69);
+  padding: 15px;
+  min-width: 20vw;
+}
+#aboutUs_index > h1 {
+  color: black;
+  font-size: medium;
+  text-decoration: underline;
+}
+
+a:hover {
+  box-shadow: 5px 5px 5px;
+  color: rgba(255, 255, 255, 0.397);
 }
 
 @media only screen and (min-width: 650px) {

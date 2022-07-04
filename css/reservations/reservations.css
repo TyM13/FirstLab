@@ -280,42 +280,17 @@ a:hover {
   color: white;
 }
 
-iframe {
+body {
+  background-image: url(/indexPictures/Backgroundindex.webp);
+}
+
+#reservations_maincontainer {
+  display: grid;
+  grid-column: 1fr;
   align-self: center;
   justify-self: center;
-  width: 60vw;
-  height: 60vh;
-  margin: 20px;
-}
-
-main {
-  display: grid;
-  grid-auto-flow: row;
-  margin-bottom: 20vh;
-  justify-items: center;
-}
-main > p {
-  color: white;
-  margin: 20px;
-  text-align: center;
-}
-main > h4 {
   color: white;
   text-align: center;
-}
-
-#aboutus_h1 {
-  text-align: center;
-  padding: 20px;
-  text-decoration: underline;
-}
-
-#aboutus_h1 {
-  color: white;
-}
-
-#restautant_interior {
-  margin-top: 20vh;
-  border-radius: 10%;
-  width: 80%;
-}/*# sourceMappingURL=AboutUs.css.map */
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}/*# sourceMappingURL=reservations.css.map */
